@@ -1,6 +1,6 @@
 @font-face {
-        font-family: 'OpenSans'; 
-        src:url('../Open_Sans/OpenSans-Regular.ttf');
+        font-family: "Open_sans"; 
+        src:url('../Open_Sans/OpenSans-Bold.ttf');
         font-size: 14 px;
 }
 @font-face{
@@ -9,8 +9,8 @@
 }
 
 body{
-    background-color: #f2f2f2;
-    font-family:"Opensans";
+    background-color: white;
+    font-family:"Open_Sans";
 }
 
 .contenu{
@@ -21,14 +21,16 @@ body{
 }
 
 header{
-    font-family:"OpenSans";
+    font-family:"nasalization";
     height:150px;
-    background-image:url("../Open_Sans/texture-header.jpg") ;
+    background-image:url("../Open_Sans/texture-header.jpg");
+
+
 
 }
 h1{
     text-align: center;
-    font-family: "nasalisation";
+    font-family: "nasalization";
     font-size:40px;
     columns: #27d1ff;
     vertical-align: middle;
@@ -66,7 +68,7 @@ color: #17c1ff;
 h2{
     text-transform: uppercase;
     text-shadow: 2px 2px grey; 
-    color: #e6e6e6;
+    color: #070101;
 }
 
 p{
@@ -91,4 +93,26 @@ p{
 
 .picturesize{
     width:80%
+}
+
+footer{
+    padding:5%;
+}
+
+.tableau{
+    height:400px ;
+    overflow-x: scroll;
+    background-color:white;
+}
+
+th{color:white;
+   background-color: rgb(120, 164, 231);
+   text-transform:uppercase;
+}
+
+form{
+    outline: none;
+}
+.titre{
+font-family: "nasalization"!important;
 }
