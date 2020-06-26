@@ -1,0 +1,94 @@
+@font-face {
+        font-family: 'OpenSans'; 
+        src:url('../Open_Sans/OpenSans-Regular.ttf');
+        font-size: 14 px;
+}
+@font-face{
+        font-family: "nasalization"; 
+        src: url('../Open_Sans/nasalization-rg.ttf');
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family:"Opensans";
+}
+
+.contenu{
+    width:810px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+header{
+    font-family:"OpenSans";
+    height:150px;
+    background-image:url("../Open_Sans/texture-header.jpg") ;
+
+}
+h1{
+    text-align: center;
+    font-family: "nasalisation";
+    font-size:40px;
+    columns: #27d1ff;
+    vertical-align: middle;
+}
+
+nav{
+   color: white; 
+   display:inline-block 100%;
+   background-color: #2e2f30;
+   padding-right: 50px; 
+   margin:0px;
+   text-align:right;
+   vertical-align: middle;
+}
+.encours{
+    color: #17c1ff;
+    font-weight: bold;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:visited{
+    color:white
+}
+a:hover{
+color: #17c1ff;
+}    
+
+.imageep{
+    text-align:center;
+}
+
+h2{
+    text-transform: uppercase;
+    text-shadow: 2px 2px grey; 
+    color: #e6e6e6;
+}
+
+p{
+    text-align: center;
+    width:750px;
+    padding:10px;
+}
+
+.picture1{
+    float:left
+}
+
+.picture2{
+    width:50%;
+}
+
+.picture{
+    display:flex;
+    flex-direction:row;
+    overflow:hidden;
+}
+
+.picturesize{
+    width:80%
+}
